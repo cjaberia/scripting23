@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap');
+
+/*#034C8C blue, #f2b705 yellow, #8C1620 red, #353232  gray) 
+red #FF0000 , yellow #FFD700, blue #0000FF, silver metallic #C0C0C0, #a88009 gold, #061c43 dark blue, 
+rgb(27, 26, 26) this is dark grey*/
+
+
+body {
+    background-color: #061c43;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(209, 208, 208);
+}
+
+h1,
+h2 {
+    font-family: 'Cinzel', serif;
+    color: #a88009;
+    text-align: center;
+}
+
+
+/**************************header***********************/
+header {
+    background-color: #061c43;
+    /*background-image: linear-gradient(to top, #061c43, #082450, #0a2d5d, #0a366b, #093f79, #2a4b84, #3f588e, #526599, #727aa2, #8f90ac, #a8a7b6, #c0c0c0);*/
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-wondie {
+    width: 900px;
+    height: auto;
+
+}
+
+/************************navigation bar ***************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BF8C2C;
+}    
+
+nav li {
+    float: left;
+}
+
+nav a, nav a:visited {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #034C8C;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/**************************section***********************/
+
+section {
+    background-color: #353232;
+    width: 75vw;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.alternateBG {
+    background-color: #8C1620;
+}
+
+
+section img {
+    float: left;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+   
+/**************************footer***********************/
+
+footer {
+    background-color: #BF8C2C;
+    color: #353232;
+    text-align: center;
+    padding: 10px;
+}
+
+/************************Styled Links******************/
+
+a{
+    color: rgb(209, 208, 208);
+}
+
+a:visited{
+    color: #a1a4a7;
+}
+
+a:hover{
+    color: #f2b705;
+}
+/*pressing down*/
+a:active{
+    color: #034C8C;
+}
