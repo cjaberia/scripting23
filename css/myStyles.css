@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Chivo&display=swap');
+
+
+h1,
+h2 {
+    font-family: 'Agbalumo', serif;
+    color: rgb(12, 12, 12)
+    
+}
+
+
+#masthead{
+    background-image: url("../images/backgrounds/pink1.png");
+    background-size:cover;
+    background-position: center;
+}
+
+/*pink e291b2*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo', sans-serif;
+    color: black;
+   
+}
+
+.social-icons {
+    color: white;
+    margin-left: 10px
+}
+
+.bg-footer{
+    background-image: url("../images/backgrounds/pink1.png");
+    background-size:cover;
+    background-position: center;
+}
+
+
+/************************Styled Links******************/
+
+a{
+    color: #41484e;
+}
+
+a:visited{
+    color: #909294;
+}
+
+a:active{
+    color: #41484e;
+}
